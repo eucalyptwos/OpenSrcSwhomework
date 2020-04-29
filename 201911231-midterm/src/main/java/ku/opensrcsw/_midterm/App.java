@@ -3,7 +3,7 @@ package ku.opensrcsw._midterm;
 
 import org.json.simple.*;
 import org.json.simple.parser.*;
-
+import midterm.problem2.RegularExpression;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -24,7 +24,7 @@ public class App
         for(int i=0;i<infoArray.size();i++)
         {
         	JSONObject itemObject =(JSONObject)infoArray.get(i);
-        	if(((String) itemObject.get("item")).indexOf(search)!=-1)	
+        	if (re.check((String) itemObject.get("item"), search))	
         		System.out.println("item "+i+": "+itemObject.get("item"));
         }
 		} catch (FileNotFoundException e) {

@@ -22,6 +22,13 @@
     <artifactId>json-simple</artifactId>
     <version>1.1.1</version>
 </dependency>
+ <dependency>
+   <groupId>midterm</groupId>
+   <artifactId>problem2</artifactId>
+   <version>0.0.1-SNAPSHOT</version>
+   <scope>system</scope> 
+   <systemPath>C:/Users/2468a/gitmid/MidTermJar/problem2-0.0.1-SNAPSHOT.jar</systemPath>
+ </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
