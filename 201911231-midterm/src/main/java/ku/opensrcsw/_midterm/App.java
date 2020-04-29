@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class App 
 {
 	public static void main(String[] args) {
+		RegularExpression re = new RegularExpression();
 		Scanner s = new Scanner(System.in);
 		System.out.print("Enter the keyword you are looking for: ");
 		String search = s.nextLine();
